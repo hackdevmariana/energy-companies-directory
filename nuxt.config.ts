@@ -11,5 +11,12 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     '@nuxt/ui',
     '@nuxt/icon'
-  ]
+  ],
+  app: {
+    head: {
+      title: 'Energy companies directory',
+      meta: [{ name: 'description', content: 'Energy companies directory' }],
+    },
+  },
+
 })
